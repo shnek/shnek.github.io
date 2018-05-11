@@ -26,7 +26,7 @@
     <meta name="twitter:site" content="@jahnelgroup"/>
 
     <meta property="og:site_name" content="" />
-    <meta property="og:title" content="The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective &middot; JahnelGroup Blog about ServiceNow" />
+    <meta property="og:title" content="The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective &middot; Jahnel Group Blog about ServiceNow" />
     <meta property="og:url" content="/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/" />
     <meta property="article:publisher" content="https://www.facebook.com/jahnelgroup" />
 
@@ -60,9 +60,9 @@
   <div class="inner">
     <div class="site-header-content">
       <h1 class="site-title">
-        <img class="site-logo" src="/images/jg_logo_white.png" alt="JahnelGroup Blog about ServiceNow" />
+        <img class="site-logo" src="/images/jg_logo_white.png" alt="Jahnel Group Blog about ServiceNow" />
        </h1>
-        <h2 class="site-description">JahnelGroup Blog about ServiceNow </h2>
+        <h2 class="site-description">Jahnel Group Blog about ServiceNow </h2>
     </div>
 
     <nav class="site-nav">
@@ -75,7 +75,7 @@
             </li>
         
             <li class="" role="menuitem">
-              <a href="http://servicenow.jahnelgroup.com/">Site</a>
+              <a href="http://servicenow.jahnelgroup.com/">Our Site</a>
             </li>
         
             <li class="" role="menuitem">
@@ -137,13 +137,13 @@
 
 <p>Over the years, the concept of &ldquo;platform&rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the <a href="https://www.servicenow.com/customers.html#all-customers">list</a> of companies using the ServiceNow platform is impressive, but it doesn&rsquo;t show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies. They usually have heard about it and they either know it is being used at company they, or someone else they know work at. With the growing popularity of the platform comes the need for skilled developers. I familiarized myself with the platform, and I built a demo application. This journey taught me various quirks about the platform which I want to share with all the other Developers.</p>
 
-<h1 id="developing-for-the-platform">Developing for the platform</h1>
+<h2 id="developing-for-the-platform">Developing for the platform</h2>
 
-<h2 id="long-way-until-coding">Long way until coding</h2>
+<h3 id="long-way-until-coding">Long way until coding</h3>
 
 <p>The first thing that I noticed when developing the application is that there is a long way until you will actually start coding. This is very different compared to what most developers am used to. Naturally, I am skipping the step of defining requirements and creating ERD diagrams. This process is no different than the that for creating any other application. Within ServiceNow, usually one of the first things you want to do is create database tables. You may end up doing that through ServiceNow Studio, which is a web-based IDE, using a graphical interface - forms, fields and lists - and you can&rsquo;t find any SQL here!</p>
 
-<p><img src="/assets/images/studio.png" alt="Studio" /></p>
+<p><img src="/images/goodbadugly/studio.png" alt="Studio" /></p>
 
 <p>The use of graphical based elements while creating the application does not stop there. Many of the pages for your application are semi-done for you. Out of the box you’ll get list views, which allow you to view database data in table-like format. You want to view a specific entry in the table? In ServiceNow it&rsquo;s called a record, and you can view it using Form View. You don&rsquo;t like the layout of the form? There is even a form designer allowing you to drag and drop element to customize that!</p>
 
@@ -159,7 +159,7 @@
 
 <p>Let me show this problem using the widget editor on Service Portal Designer.</p>
 
-<p><img src="/assets/images/widget.png" alt="widget" /></p>
+<p><img src="/images/goodbadugly/widget.png" alt="widget" /></p>
 
 <p>You are greeted by a website where you can edit code in four areas: HTML, CSS, Client Script and Server Script. You start coding, close the JavaScript windows since you want to start with the layout of your widget. You want to resize the CSS area, because usually CSS files aren&rsquo;t very wide, and you want more horizontal space on the HTML template? Sorry. Can&rsquo;t do it. Using your IDE shortcuts? No way of setting them here. Code reformatting? Advanced autocompletion? Jumping around to function definition? No, you are left out without all the things that you like your IDE for.</p>
 
@@ -181,7 +181,7 @@
 
 <p>One day, after stashing some changes and trying to unstash them on a different branch, unstashing failed. Up to this day I do not know why it failed. It said that I have unresolved conflicts in files, and then gave me an empty list of files that I should resolve conflicts within. I was annoyed not only because of it not working properly, but because of me losing some work that I have been doing over some time.</p>
 
-<h1 id="summary">Summary</h1>
+<h2 id="summary">Summary</h2>
 
 <p>After reading this post you may think that I absolutely hate ServiceNow platform. That is completly false. I was presented to this platform as something that solves a lot of problems, a great tool that helps IT companies manage the process of producing software, platform that is easily extensible and able to adapt to requirements. Being a very sceptic person I knew there is a catch, nothing is perfect. That is why I wanted to share with everyone out there that is new to this platform as a developer some problems that I have encounter during the beginning of my journey with ServiceNow. I know I did not talk much about the good things, but I think there is enough people saying nice things about it that you could just read their posts.</p>
 
@@ -190,7 +190,7 @@
       </section>
 
       <footer class="post-card-meta">
-          <img class="author-profile-image" src="//images/jsynowiec.jpg"
+          <img class="author-profile-image" src="/images/jsynowiec.jpg"
             alt="Author" />
           <span class="post-card-author"><a href="//authors/jsynowiec">Jakub Synowiec</a></span>
       </footer>
@@ -200,11 +200,11 @@
 
     <nav class="pagination" role="navigation">
       
-          <a class="newer-posts" href="/guess-the-output-of-this-code/">&larr; <span class="hide">Next Post</span></a>
+          <a class="older-posts" href="/how-to-not-fail-your-servicenow-certification-exam/">&larr; <span class="hide">Previous Post</span></a>
       
       <span class="page-number">&nbsp;</span>
       
-          <a class="older-posts" href="/how-to-not-fail-your-servicenow-certification-exam/"><span class="hide">Previous Post</span> &rarr;</a>
+          <a class="newer-posts" href="/guess-the-output-of-this-code/"><span class="hide">Next Post</span> &rarr;</a>
       
     </nav>
 
