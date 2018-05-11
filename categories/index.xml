@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>/snow-blog/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/snow-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Developer</title>
-      <link>/snow-blog/categories/developer/</link>
+      <link>/categories/developer/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/categories/developer/</guid>
+      <guid>/categories/developer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exam</title>
-      <link>/snow-blog/categories/exam/</link>
+      <link>/categories/exam/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/snow-blog/categories/exam/</guid>
+      <guid>/categories/exam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Funny</title>
-      <link>/snow-blog/categories/funny/</link>
+      <link>/categories/funny/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/categories/funny/</guid>
+      <guid>/categories/funny/</guid>
       <description></description>
     </item>
     

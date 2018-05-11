@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Developer on </title>
-    <link>/snow-blog/tags/developer/</link>
+    <link>/tags/developer/</link>
     <description>Recent content in Developer on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 04 Oct 2017 10:18:00 +0000</lastBuildDate>
     
-	<atom:link href="/snow-blog/tags/developer/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/developer/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective</title>
-      <link>/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</link>
+      <link>/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</link>
       <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
       
-      <guid>/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</guid>
+      <guid>/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</guid>
       <description>Over the years, the concept of &amp;ldquo;platform&amp;rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the list of companies using the ServiceNow platform is impressive, but it doesn&amp;rsquo;t show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies.</description>
     </item>
     

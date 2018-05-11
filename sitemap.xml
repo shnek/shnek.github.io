@@ -3,122 +3,122 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/snow-blog/guess-the-output-of-this-code/</loc>
+    <loc>/guess-the-output-of-this-code/</loc>
     <lastmod>2018-04-26T13:55:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</loc>
+    <loc>/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</loc>
     <lastmod>2017-10-04T10:18:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/snow-blog/how-to-not-fail-your-servicenow-certification-exam/</loc>
+    <loc>/how-to-not-fail-your-servicenow-certification-exam/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/snow-blog/</loc>
+    <loc>/</loc>
     <lastmod>2018-04-26T13:55:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/authors/</loc>
+    <loc>/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/tags/certification/</loc>
-    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/tags/code/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/tags/developer/</loc>
-    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/categories/developer/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/authors/dmann/</loc>
+    <loc>/tags/certification/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/tags/exam/</loc>
-    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/categories/exam/</loc>
-    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/categories/funny/</loc>
+    <loc>/tags/code/</loc>
     <lastmod>2018-04-26T13:55:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/tags/javascript/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/authors/jsynowiec/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/tags/parseint/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/post/</loc>
-    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/snow-blog/tags/problems/</loc>
+    <loc>/tags/developer/</loc>
     <lastmod>2017-10-04T10:18:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/tags/servicenow/</loc>
+    <loc>/categories/developer/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/dmann/</loc>
+    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/exam/</loc>
+    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/exam/</loc>
+    <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/funny/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/authors/jsynowiec/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/parseint/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-04-26T13:55:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/problems/</loc>
     <lastmod>2017-10-04T10:18:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/snow-blog/tags/</loc>
+    <loc>/tags/servicenow/</loc>
+    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dmann on </title>
-    <link>/snow-blog/authors/dmann/</link>
+    <link>/authors/dmann/</link>
     <description>Recent content in Dmann on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/snow-blog/authors/dmann/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/dmann/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Not Fail Your ServiceNow Certification Exam</title>
-      <link>/snow-blog/how-to-not-fail-your-servicenow-certification-exam/</link>
+      <link>/how-to-not-fail-your-servicenow-certification-exam/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/snow-blog/how-to-not-fail-your-servicenow-certification-exam/</guid>
+      <guid>/how-to-not-fail-your-servicenow-certification-exam/</guid>
       <description>Want a foolproof plan to guarantee success on your ServiceNow Certification Exam? Well, this isn’t it, but it’s as close as I can get! I’m not offering any guarantees, but what I can offer is a guide which has been proven successful for both myself and the rest of my team. By the end of reading this post my goal is to have you feeling prepared and confident to go out and crush your ServiceNow certification exam!</description>
     </item>
     

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on </title>
-    <link>/snow-blog/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="/snow-blog/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dmann</title>
-      <link>/snow-blog/authors/dmann/</link>
+      <link>/authors/dmann/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/snow-blog/authors/dmann/</guid>
+      <guid>/authors/dmann/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jsynowiec</title>
-      <link>/snow-blog/authors/jsynowiec/</link>
+      <link>/authors/jsynowiec/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/authors/jsynowiec/</guid>
+      <guid>/authors/jsynowiec/</guid>
       <description></description>
     </item>
     

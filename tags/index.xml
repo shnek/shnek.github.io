@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>/snow-blog/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 04 Oct 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/snow-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Certification</title>
-      <link>/snow-blog/tags/certification/</link>
+      <link>/tags/certification/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/snow-blog/tags/certification/</guid>
+      <guid>/tags/certification/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>/snow-blog/tags/code/</link>
+      <link>/tags/code/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/tags/code/</guid>
+      <guid>/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Developer</title>
-      <link>/snow-blog/tags/developer/</link>
+      <link>/tags/developer/</link>
       <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
       
-      <guid>/snow-blog/tags/developer/</guid>
+      <guid>/tags/developer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exam</title>
-      <link>/snow-blog/tags/exam/</link>
+      <link>/tags/exam/</link>
       <pubDate>Wed, 04 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/snow-blog/tags/exam/</guid>
+      <guid>/tags/exam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>/snow-blog/tags/javascript/</link>
+      <link>/tags/javascript/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/tags/javascript/</guid>
+      <guid>/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Parseint</title>
-      <link>/snow-blog/tags/parseint/</link>
+      <link>/tags/parseint/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/tags/parseint/</guid>
+      <guid>/tags/parseint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Problems</title>
-      <link>/snow-blog/tags/problems/</link>
+      <link>/tags/problems/</link>
       <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
       
-      <guid>/snow-blog/tags/problems/</guid>
+      <guid>/tags/problems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Servicenow</title>
-      <link>/snow-blog/tags/servicenow/</link>
+      <link>/tags/servicenow/</link>
       <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
       
-      <guid>/snow-blog/tags/servicenow/</guid>
+      <guid>/tags/servicenow/</guid>
       <description></description>
     </item>
     

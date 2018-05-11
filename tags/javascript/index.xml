@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on </title>
-    <link>/snow-blog/tags/javascript/</link>
+    <link>/tags/javascript/</link>
     <description>Recent content in Javascript on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 26 Apr 2018 13:55:00 -0400</lastBuildDate>
     
-	<atom:link href="/snow-blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Guess The Output of this Code</title>
-      <link>/snow-blog/guess-the-output-of-this-code/</link>
+      <link>/guess-the-output-of-this-code/</link>
       <pubDate>Thu, 26 Apr 2018 13:55:00 -0400</pubDate>
       
-      <guid>/snow-blog/guess-the-output-of-this-code/</guid>
+      <guid>/guess-the-output-of-this-code/</guid>
       <description>Over the time that I have been working with ServiceNow I have discovered several interesting quirks about the behavior of the code. Some of them kept me wondering for a while, others made me giggle. I want to share one of them with you, that I have discovered recently with Dylan, while debugging one of our applications, that left us with one question: Why does it work like that?</description>
     </item>
     
