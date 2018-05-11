@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/snow-blog/favicon.ico" />
+    <link rel="canonical" href="/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/" />
+
+     <meta name="description" content="Over the years, the concept of &amp;ldquo;platform&amp;rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one comp" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="/snow-blog/images/presence.jpg"/>
+    
+ 
+    <meta name="twitter:title" content="The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective"/>
+    <meta name="twitter:description" content="Over the years, the concept of &amp;ldquo;platform&amp;rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one comp"/>
+    <meta name="twitter:url" content="/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/" />
+    <meta name="twitter:site" content="@jahnelgroup"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective &middot; JahnelGroup Blog about ServiceNow" />
+    <meta property="og:url" content="/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/" />
+    <meta property="article:publisher" content="https://www.facebook.com/jahnelgroup" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Over the years, the concept of &amp;ldquo;platform&amp;rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one comp" />
+
+    <meta property="article:published_time" content="2017-10-04T10:18:00Z" />
+    <meta property="article:tag" content="Developer" /><meta property="article:tag" content="ServiceNow" /><meta property="article:tag" content="Problems" />
+
+    <meta property="og:image" content="/snow-blog/images/presence.jpg"/>
+
+
+    <meta name="generator" content="Hugo 0.40.1" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/snow-blog/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="/snow-blog/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
+
+     
+
+</head>
+
+
+<body class="ctsingle">
+
+  <div class="site-wrapper"> 
+
+<header class="site-header outer "  style="background-image: url(/snow-blog/images/main-background.jpg)"  >
+  <div class="inner">
+    <div class="site-header-content">
+      <h1 class="site-title">
+        <img class="site-logo" src="/snow-blog/images/jg_logo_white.png" alt="JahnelGroup Blog about ServiceNow" />
+       </h1>
+        <h2 class="site-description">JahnelGroup Blog about ServiceNow </h2>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left"><ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="/snow-blog/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://servicenow.jahnelgroup.com/">Site</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/snow-blog/categories">Categories</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    <a class="social-link social-link-fb" href="https://www.facebook.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+    <div class="post-feed">
+      
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/">
+      <div class="post-card-image" style="background-image: url(/snow-blog/images/presence.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+    <div class="post-card-content-link">
+        
+        <span class="post-card-tags">
+            <a href="/snow-blog/tags/developer"> #Developer</a>
+            <a href="/snow-blog/tags/servicenow"> #ServiceNow</a>
+            <a href="/snow-blog/tags/problems"> #Problems</a> </span>
+        
+        <a href="/snow-blog/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/" style="text-decoration: none; color: rgb(21,23,26)">
+            <header class="post-card-header">
+                <h2 class="post-card-title">The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective</h2>
+            </header>
+        </a>
+    </div>
+      <section class="post-card-excerpt" style="padding: 0 25px;">
+          
+
+<p>Over the years, the concept of &ldquo;platform&rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the <a href="https://www.servicenow.com/customers.html#all-customers">list</a> of companies using the ServiceNow platform is impressive, but it doesn&rsquo;t show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies. They usually have heard about it and they either know it is being used at company they, or someone else they know work at. With the growing popularity of the platform comes the need for skilled developers. I familiarized myself with the platform, and I built a demo application. This journey taught me various quirks about the platform which I want to share with all the other Developers.</p>
+
+<h1 id="developing-for-the-platform">Developing for the platform</h1>
+
+<h2 id="long-way-until-coding">Long way until coding</h2>
+
+<p>The first thing that I noticed when developing the application is that there is a long way until you will actually start coding. This is very different compared to what most developers am used to. Naturally, I am skipping the step of defining requirements and creating ERD diagrams. This process is no different than the that for creating any other application. Within ServiceNow, usually one of the first things you want to do is create database tables. You may end up doing that through ServiceNow Studio, which is a web-based IDE, using a graphical interface - forms, fields and lists - and you can&rsquo;t find any SQL here!</p>
+
+<p><img src="/assets/images/studio.png" alt="Studio" /></p>
+
+<p>The use of graphical based elements while creating the application does not stop there. Many of the pages for your application are semi-done for you. Out of the box you’ll get list views, which allow you to view database data in table-like format. You want to view a specific entry in the table? In ServiceNow it&rsquo;s called a record, and you can view it using Form View. You don&rsquo;t like the layout of the form? There is even a form designer allowing you to drag and drop element to customize that!</p>
+
+<p>So far so good, you don&rsquo;t have to play around with such boring tasks like creating a table view of your data. But, your application does not do anything useful yet. You want to have a flow in the app, you want something to trigger actions. You look up how to do that, since you still have not seen any place for writing any code, and you find out that you should do that using workflows. So the next question becomes, how do you create a workflow? Luckily, there is a workflow editor for that - a drag and drop application that enables you to create and customize workflows.</p>
+
+<p>I hope at this point you can already see my point. An enormous part of the application is being created using ServiceNow specific GUI applications. You might think that this is a great thing as you don&rsquo;t need to learn another API! You do not need to go through setting up annoying things like database connections, user authorization and authentication, basic table and form views. However, some of you may also think that this way of doing stuff is completely absurd! How can I work without my beloved IDE, frameworks and libraries? How can I debug and test my code? You have to know that in ServiceNow, things are done in a <strong>different</strong> way.</p>
+
+<h2 id="implementing-code">Implementing Code</h2>
+
+<p>Reading this post you may think that you do not need to know how to write code to be able to develop an application for ServiceNow. That’s where you’re wrong. There are still places that require coding: business rules, client scripts, script includes just to name few. And if you want to go a step further and write an application with a custom user interface using Service Portal, you need to write JavaScript, HTML and CSS for widgets.</p>
+
+<p>Here is where I encountered my first actual problem with ServiceNow platform. I was very skeptical about having to build the application using provided interfaces from the beginning. Since it was proving to work well, I was able to justify it for the comfort of having all the nice functionality out of the box. I can find no particular reason to make developers write code inside text areas on the ServiceNow page. I am aware that this way you could write code using, for instance, a chromebook, but that is a step back! Why would you cut your grass using a scythe, when there are lawnmowers created for that?</p>
+
+<p>Let me show this problem using the widget editor on Service Portal Designer.</p>
+
+<p><img src="/assets/images/widget.png" alt="widget" /></p>
+
+<p>You are greeted by a website where you can edit code in four areas: HTML, CSS, Client Script and Server Script. You start coding, close the JavaScript windows since you want to start with the layout of your widget. You want to resize the CSS area, because usually CSS files aren&rsquo;t very wide, and you want more horizontal space on the HTML template? Sorry. Can&rsquo;t do it. Using your IDE shortcuts? No way of setting them here. Code reformatting? Advanced autocompletion? Jumping around to function definition? No, you are left out without all the things that you like your IDE for.</p>
+
+<p>To give credit, I think ServiceNow is <strong>trying</strong> to do right by developers. They provide syntax highlighting, line numbering with the ability to shrink code, a few of the key shortcuts. My point is that no matter how much ServiceNow tries, their IDE is not going to be better than the big guys: Visual Studio, JetBrains or even vim if you are used to that.</p>
+
+<h2 id="access-to-databases">Access to Databases</h2>
+
+<p>Another feature that SerivceNow provides is a specific way of accessing database. We already know you do not write SQL code to create tables, but what if you want to access them from you JavaScript code? You are left with something called GlideRecord API. Don&rsquo;t get me wrong - not having to work with SQL is a huge advantage for some. If think about this for a minute, why does SQL even exist if we could be replacing it with APIs like GlideRecord? The answer is that you can&rsquo;t replace it.</p>
+
+<p>On that note, so far I do not miss having to write SQL queries. Using the provided API was sufficient enough for me and I did not have any problem with it. I just wanted to add this paragraph because talking to other developers, they were not sure that accessing databases without SQL is a very good design. Again, another thing that ServiceNow does in a <strong>different</strong> way.</p>
+
+<h2 id="version-control">Version Control</h2>
+
+<p>Just like every other good developer I follow good practices when it comes to version control. Therefore I have set up a GitHub repository for my ServiceNow application. ServiceNow allows you to do that through Studio. However, I then realized some major flaws with this implementation. First of all, I wanted to merge the change that I was developing on my feature branch to master, and realized there is no merge functionality. <strong>What?</strong> Can I revert a commit? That’s possible, but not through the Studio. In studio you can apply remote changes, so for reverting a commit you would have to ensure that the commit you want is the most recent one on your branch. Can I look into a previous version of my code? Again, you would have to revert to the commit you want to see on your remote repository, apply remote changes and look for the code in the ServiceNow application. At this point I think it is easier to go to your repository, GitHub in my case, and view the XML-enclosed files that define all the code you write inside the application from a revision that you want.</p>
+
+<p>I settled on a workflow that I have found on some ServiceNow <a href="https://snstud.io/using-git-servicenow/">forum</a>, which highlights that to merge branches you should stash often, then switch branch and unstash. I have not been able to find any official feedback on using git integration for actual version control. Instead, ServiceNow recommends using it for managing versions of the application and easy installing application on developer instances. That means people who want to use git as a version control system, will experience similar problems as I encountered. Accepting the fact that I have to do the weirdest workaround with VCS system I have ever seen, I’m happy to say that it worked for me.</p>
+
+<p>For a few days.</p>
+
+<p>One day, after stashing some changes and trying to unstash them on a different branch, unstashing failed. Up to this day I do not know why it failed. It said that I have unresolved conflicts in files, and then gave me an empty list of files that I should resolve conflicts within. I was annoyed not only because of it not working properly, but because of me losing some work that I have been doing over some time.</p>
+
+<h1 id="summary">Summary</h1>
+
+<p>After reading this post you may think that I absolutely hate ServiceNow platform. That is completly false. I was presented to this platform as something that solves a lot of problems, a great tool that helps IT companies manage the process of producing software, platform that is easily extensible and able to adapt to requirements. Being a very sceptic person I knew there is a catch, nothing is perfect. That is why I wanted to share with everyone out there that is new to this platform as a developer some problems that I have encounter during the beginning of my journey with ServiceNow. I know I did not talk much about the good things, but I think there is enough people saying nice things about it that you could just read their posts.</p>
+
+<p>To give ServiceNow credit I see that there are many changes going in the right direction. Over my relatively short time spent with the platform, I have seen an improvement in the learning plans that are supposed to help familiarize you with how things work in ServiceNow. I have also seen ServiceNow developers implement features that the community requires. I think that ServiceNow would benefit from allowing people to write their own plugins that could add the functionality they need. There is huge power in community collaboration on certain things. On that note, I started writing my own toolkit that would fix some of my problems listed in this post. Stay tuned for my next post, because when I finish working on the toolkit I will certainly release it for the community.</p>
+
+      </section>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="/snow-blog/images/jsynowiec.jpg"
+            alt="Author" />
+          <span class="post-card-author"><a href="/snow-blog/authors/jsynowiec">Jakub Synowiec</a></span>
+      </footer>
+    </div>
+</article>
+    </div>
+
+    <nav class="pagination" role="navigation">
+      
+          <a class="newer-posts" href="/snow-blog/guess-the-output-of-this-code/">&larr; <span class="hide">Next Post</span></a>
+      
+      <span class="page-number">&nbsp;</span>
+      
+          <a class="older-posts" href="/snow-blog/how-to-not-fail-your-servicenow-certification-exam/"><span class="hide">Previous Post</span> &rarr;</a>
+      
+    </nav>
+
+    
+    
+    
+
+  </div>
+</main>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="/">JahnelGroup</a>  <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        <a href="/">Latest Posts</a>
+        <a href="https://www.facebook.com/jahnelgroup" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/jahnelgroup" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/jahnelgroup" target="_blank" rel="noopener">Github</a>
+        
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/snow-blog/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+</body></html>
