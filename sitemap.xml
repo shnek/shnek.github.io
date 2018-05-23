@@ -8,6 +8,16 @@
   </url>
   
   <url>
+    <loc>/servicenow-presence-api/</loc>
+    <lastmod>2018-04-26T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fix-mobile-menu-on-service-portal/</loc>
+    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</loc>
     <lastmod>2017-10-04T10:18:00+00:00</lastmod>
   </url>
@@ -15,6 +25,11 @@
   <url>
     <loc>/how-to-not-fail-your-servicenow-certification-exam/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/a-beginners-insight-into-the-user-interface-on-servicenow/</loc>
+    <lastmod>2017-10-02T10:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -47,7 +62,7 @@
   
   <url>
     <loc>/tags/developer/</loc>
-    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
+    <lastmod>2018-04-26T10:18:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -88,6 +103,12 @@
   </url>
   
   <url>
+    <loc>/authors/jlee/</loc>
+    <lastmod>2017-10-02T10:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/jsynowiec/</loc>
     <lastmod>2018-04-26T13:55:00-04:00</lastmod>
     <priority>0</priority>
@@ -101,19 +122,25 @@
   
   <url>
     <loc>/tags/problems/</loc>
-    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
+    <lastmod>2018-04-26T10:18:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/servicenow/</loc>
-    <lastmod>2017-10-04T10:18:00+00:00</lastmod>
+    <lastmod>2018-04-26T10:18:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <lastmod>2017-10-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ui/ux/</loc>
+    <lastmod>2017-10-02T10:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

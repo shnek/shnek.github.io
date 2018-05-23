@@ -32,7 +32,7 @@
     <item>
       <title>Developer</title>
       <link>/tags/developer/</link>
-      <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
+      <pubDate>Thu, 26 Apr 2018 10:18:00 +0000</pubDate>
       
       <guid>/tags/developer/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>Problems</title>
       <link>/tags/problems/</link>
-      <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
+      <pubDate>Thu, 26 Apr 2018 10:18:00 +0000</pubDate>
       
       <guid>/tags/problems/</guid>
       <description></description>
@@ -68,9 +68,18 @@
     <item>
       <title>Servicenow</title>
       <link>/tags/servicenow/</link>
-      <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
+      <pubDate>Thu, 26 Apr 2018 10:18:00 +0000</pubDate>
       
       <guid>/tags/servicenow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ui/Ux</title>
+      <link>/tags/ui/ux/</link>
+      <pubDate>Mon, 02 Oct 2017 10:00:00 +0000</pubDate>
+      
+      <guid>/tags/ui/ux/</guid>
       <description></description>
     </item>
     

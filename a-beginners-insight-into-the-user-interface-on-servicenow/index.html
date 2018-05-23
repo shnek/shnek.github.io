@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>A Beginner’s Insight into the User Interface on ServiceNow &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="canonical" href="/a-beginners-insight-into-the-user-interface-on-servicenow/" />
+
+     <meta name="description" content="As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is " /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="/images/cover4.jpg"/>
+    
+ 
+    <meta name="twitter:title" content="A Beginner’s Insight into the User Interface on ServiceNow"/>
+    <meta name="twitter:description" content="As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is "/>
+    <meta name="twitter:url" content="/a-beginners-insight-into-the-user-interface-on-servicenow/" />
+    <meta name="twitter:site" content="@jahnelgroup"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="A Beginner’s Insight into the User Interface on ServiceNow &middot; Jahnel Group Blog about ServiceNow" />
+    <meta property="og:url" content="/a-beginners-insight-into-the-user-interface-on-servicenow/" />
+    <meta property="article:publisher" content="https://www.facebook.com/jahnelgroup" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is " />
+
+    <meta property="article:published_time" content="2017-10-02T10:00:00Z" />
+    <meta property="article:tag" content="Developer" /><meta property="article:tag" content="ServiceNow" /><meta property="article:tag" content="UI/UX" />
+
+    <meta property="og:image" content="/images/cover4.jpg"/>
+
+
+    <meta name="generator" content="Hugo 0.40.1" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
+
+     
+
+</head>
+
+
+<body class="ctsingle">
+
+  <div class="site-wrapper"> 
+
+<header class="site-header outer "  style="background-image: url(/images/main-background.jpg)"  >
+  <div class="inner">
+    <div class="site-header-content">
+      <h1 class="site-title">
+        <img class="site-logo" src="/images/jg_logo_white.png" alt="Jahnel Group Blog about ServiceNow" />
+       </h1>
+        <h2 class="site-description">Jahnel Group Blog about ServiceNow </h2>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left"><ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://servicenow.jahnelgroup.com/">Our Site</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/categories">Categories</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    <a class="social-link social-link-fb" href="https://www.facebook.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+    <div class="post-feed">
+      
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="/a-beginners-insight-into-the-user-interface-on-servicenow/">
+      <div class="post-card-image" style="background-image: url(/images/cover4.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+    <div class="post-card-content-link">
+        
+        <span class="post-card-tags">
+            <a href="/tags/developer"> #Developer</a>
+            <a href="/tags/servicenow"> #ServiceNow</a>
+            <a href="/tags/ui/ux"> #UI/UX</a> </span>
+        
+        <a href="/a-beginners-insight-into-the-user-interface-on-servicenow/" style="text-decoration: none; color: rgb(21,23,26)">
+            <header class="post-card-header">
+                <h2 class="post-card-title">A Beginner’s Insight into the User Interface on ServiceNow</h2>
+            </header>
+        </a>
+    </div>
+      <section class="post-card-excerpt" style="padding: 0 25px;">
+          
+
+<p>As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is targeted towards people that have just gone through ServiceNow’s Learning Plan, started getting used to the platform, or just generally curious on how ServiceNow approaches interfaces/design. Veterans are more than welcome to expand on ideas that are going to be listed here and give any helpful insight.</p>
+
+<p>For an application that is consumed by an end user, the best practice is to create a separation between front-end design and back-end logic - this is known as the MVC pattern. It keeps projects clean and priorities focused. Within ServiceNow, it’s initially hard to see that division. You can go to the platform’s browser IDE, Studio, and look through your application to see the various sections in the Application Explorer. You have tabs like Forms &amp; UI that lets you customize your forms and how your lists are presented, but they sit next to things like business logic scripts. It’s all encompassing and from the initial pass through, the application feels complete. Eventually it gets added as another module on the list of applications on the main browser.</p>
+
+<p><img src="/images/UserInter/BasicSite.jpg" alt="base image" title="Base Image" /></p>
+
+<p>…But is it done? It isn’t some sort of JSON being displayed on a command window but it is bare in aesthetics. What if you want a more engaging interface for your users? The list views are practical but ask any front-end developer (or end-user, for that matter) and they’ll immediately ask for alternatives. With over a decade worth of feedback and upgrades, ServiceNow has created other options for developers to make their instances or applications visually appealing. Its interesting to see how much it’s progressed and explore what these options are.</p>
+
+<hr />
+
+<h3 id="the-angular2-4-experiment"><strong>The Angular2/4 Experiment</strong></h3>
+
+<p><a href="http://angularjs.blogspot.com/2017/03/angular-400-now-available.html">Angular 4</a>, formerly Angular 2, is the newest version of the popular AngularJS front-end framework led by the Angular Team at Google. For new projects that are not weighed down by legacy projects or pre-existing requirements, it’s great to use a newer version of a tool. Pair Angular <sup>2</sup>&frasl;<sub>4</sub> up with angular-cli and you have a great system of generating files, testing, and managing front-end development. That said, it’s a shame ServiceNow does not currently support it (Jakarta).  If developers do want to pursue this route, it would most likely be a stand-alone front-end app that would use ServiceNow as their back-end. It would save a lot of headache just waiting for ServiceNow to support it, but it is feasible. Check out Nathan Grove’s Angular 2 set-up and the workshop he led on a sample Angular2 App:</p>
+
+<ul>
+<li><a href="https://community.servicenow.com/docs/DOC-6626">Angular2 Development Environment</a></li>
+<li><a href="https://community.servicenow.com/docs/DOC-6788">Angular2 applications for the ServiceNow platform</a></li>
+</ul>
+
+<p><img src="/images/UserInter/Angular4_Attach_Test.gif" alt="Angular4 Test Attachment" title="Angular4 Test Attachment" />
+<em>The application is a little silly, but does illustrate the point he&rsquo;s trying to make. Here, from the REST API Explorer, we can update a record. Navigating to the record, we can see the changes that have been applied.</em></p>
+
+<p><img src="/images/UserInter/Angular4_Attach_Application.gif" alt="Angular4 Application Attachment" title="Angular4 Application Attachment" />
+<em>Extending further pass the REST API test, we can actually use Nathan Grove&rsquo;s application to create an image, list all the records of specific table, and even attach the image onto it.</em></p>
+
+<p>It seems to defeat the purpose of building something outside of ServiceNow and miss out in features built into the platform, but there is merit in having loosely coupled applications. It would be simple enough for you to move from ServiceNow and attach this onto some other framework if you needed to. If we want to stay on the platform, however, we could jump back to what ServiceNow currently supports: AngularJS.</p>
+
+<hr />
+
+<h3 id="the-angularjs-application"><strong>The AngularJS Application</strong></h3>
+
+<p>If you’ve gone through the Learning Plan, you should have run through the &ldquo;<a href="https://developer.servicenow.com/app.do#!/lp/new_to_servicenow/app_store_learnv2_angularjs_jakarta_introduction_to_angularjs_apps_in_servicenow_objectives?v=jakarta">Introduction to AngularJS in ServiceNow</a>&rdquo;. If not, I highly recommend going through &ldquo;<a href="https://developer.servicenow.com/app.do#!/lp/new_to_servicenow?v=jakarta">New to ServiceNow</a>&rdquo; Learning Plan if you’re interested in the platform or studying for the certification exams. Here’s the quick recap:</p>
+
+<ul>
+<li>Create UI Pages for your application</li>
+<li>Within the Jelly Template, insert a script source to AngularJS</li>
+<li>Write your AngularJS logic</li>
+<li>Application data can be accessed and UI Scripts can be used to create functional front-end</li>
+<li>Styling and Bootstrap can be added to enhance the design</li>
+</ul>
+
+<p><img src="/images/UserInter/angularjs_uipage.jpg" alt="&quot;AngularJS UI Page&quot;" title="AngularJS UI Page" />
+<em>The Jelly Script tags along with the AngularJS script and bootstrap link can be seen here.</em></p>
+
+<p><img src="/images/UserInter/angularjs_uiscript.jpg" alt="AngularJS UI Script" title="AngularJS UI Script" />
+<em>Client script logic can be utilized through UI Scripts.</em></p>
+
+<p><img src="/images/UserInter/AngularJS_Sample.gif" alt="AngularJS Example&quot;" title="AngularJS Example" />
+<em>This simple example here does illustrate some of the nice features, such as two-way data-binding and customized HTML/CSS.</em></p>
+
+<p>It’s pretty concise and gives you the basic elements you need to get your application looking nice. However, there are some inherent problems that arise as you scale up your project. You have various references on the UI Page of UI Scripts for Client side scripting, Script Includes/Processing Script for Server side scripting, and CSS styling as well. When you move up and view from the top-down, page navigation gets awkward with endpoints like &lsquo;x_1010_app.do&rsquo;. This seems like it should be separated from your base application and unified through a manager. So what is the alternative?</p>
+
+<hr />
+
+<h3 id="the-content-management-system"><strong>The Content Management System</strong></h3>
+
+<p><img src="/images/UserInter/CMS_preview.gif" alt="CMS Site" title="CMS Site" />
+<em>Now it looks more like a consumer site!</em></p>
+
+<p>The CMS has been around for years, predating the four most recent releases out today. If you understand Jelly Script and/or have a complex service catalog, this might be the choice for you. As a plugin, it creates a ServiceNow application that creates custom interfaces for the ServiceNow platform and other applications. When you want to create a new site within your instance, you can create a new Content Site. This encompasses all the various components where you can customize the HTML, CSS, layout, and more. To access tables and persist data, Developers can access their ServiceNow data through Jelly Scripts to retrieve it and iframes display it.  In the sense of the high-level overview, the CMS does achieve the same thing as our previous AngularJS app, but it’s different in its packaging. The basic structure is:</p>
+
+<p><img src="/images/UserInter/CMS_Form.jpg" alt="CMS Site Page" title="CMS Site Page" /></p>
+
+<ul>
+<li>Content Site</li>
+<li>Content Type: Defines how the data is pull from a particular database table and rendered within the site</li>
+<li>Content Page: Displays blocks of content</li>
+<li>Layout: User Interface macro that defines a HTML structure</li>
+<li>Dropzone: Define where the content blocks are placed to make up the page</li>
+<li>Content Block: Chunks of HTML that make-up a page, the output is HTML</li>
+<li>Theme</li>
+<li>CSS</li>
+</ul>
+
+<p>The front-end design here is bundled together. Compare that to the multiple UI pages and UI Scripts, it’s good to see a contained, pre-defined hierarchy that we can play around with. While this does seem intuitive, I recommend not focusing on this method too much and trying the next one, for reasons discussed later.</p>
+
+<hr />
+
+<h3 id="the-service-portal"><strong>The Service Portal</strong></h3>
+
+<p><img src="/images/UserInter/SP_website.gif" alt="Service Portal Site" title="Service Portal Site" />
+<em>The Service Portal allows for further customizations that are not available on the Content Management System.</em></p>
+
+<p>The Service Portal seems to be the standard when attempting to create a better user experience on ServiceNow. It utilizes AngularJS and acts more as a visual layer that sits on top of ServiceNow. Much like a Content Site for the CMS, the Service Portal has ‘Portals’ to the site you want to redirect your users to. From the newly created portal record, you can set things like the URL suffix, the default homepage, the 404 page, and much more. It also includes great additions like global CSS variables, menu set-up, and a Theme for the entire portal.</p>
+
+<p><img src="/images/UserInter/ServicePortal.jpg" alt="Portal Example" title="Portal Example" />
+<em>Looks very similar to that of the CMS main window.</em></p>
+
+<p>From here, pages can be created and linked to the portal itself. Within those pages are the most interesting part of the Service Portal: widgets. These act as self-contained HTML, CSS, Client script, and Server script blocks that can be arranged and reused on portal pages.</p>
+
+<p><img src="/images/UserInter/Widget.jpg" alt="Widget Example" title="Widget Example" />
+<em>Everything you need to develop a widget; easily accessible, side-by-side.</em></p>
+
+<p>The TechNow talks are great places to start if you want to go this route.</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=wzCGZ5Mq5iU">Ask the Experts – TechNow Ep 28 – Service Portal</a></li>
+<li><a href="https://www.youtube.com/watch?v=HtOpbk_00Qw">Ask the Experts: Service Portal Part 2, TechNow 29</a></li>
+</ul>
+
+<p>This seems eerily familiar to the CMS, so why choose one over the other?</p>
+
+<hr />
+
+<h3 id="cms-vs-service-portal"><strong>CMS vs Service Portal</strong></h3>
+
+<p>You can see forums on this topic that are fairly recent. Service Portal, in a developer perspective, is simply easier to use. CMS and Service Portal are separate entities. While CMS is prone to having update conflicts, Service Portal is a self-enclosed application independent from any new versions that get released. Another point for Service Portal is the lack of Jelly Script and iframes. Jelly Script is not widely popular and makes it difficult to find proper/helpful documentation. With iframes, they are difficult to style and would be susceptible to upgrade issues. Service Portal uses AngularJS, a popular framework, and being just a visual layer allows for a better control of the page design. However, there is one notable downside to the Service Portal. It only allows for one Catalog per portal out of the box, whereas the CMS iframes can handle the need for complex catalogs. Multiple Catalog references can be achieved on a Service Portal, but it requires various widget communication and complexity that can be a hassle.</p>
+
+<p>For a more thorough discussion on this topic, check out Goran Lundqvist and Brad Tilton’s thoughts on the matter:</p>
+
+<ul>
+<li><a href="https://community.servicenow.com/community/develop/blog/2016/07/22/service-portal-and-cms-thoughts">Service Portal and CMS Thoughts</a></li>
+<li><a href="https://community.servicenow.com/community/develop/blog/2017/05/16/do-i-dare-to-move-from-cms-to-service-portal">Do I dare to move from CMS to Service Portal</a></li>
+</ul>
+
+<h3 id="up-next"><strong>Up Next?</strong></h3>
+
+<p>It’s short-sighted to say that these will be the only options available for ServiceNow. The company aims to do two major releases a year and is steadily growing. With more developers coming on board to build on the platform, the company will be more than likely to accommodate them with the most practical and widely used frameworks/tools. So while Angular 4 is not currently available, we might see it in the near future along with React, Redux, and many others.</p>
+
+      </section>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="/images/jlee.jpg"
+            alt="Author" />
+          <span class="post-card-author"><a href="//authors/jlee">John Lee</a></span>
+      </footer>
+    </div>
+</article>
+    </div>
+
+    <nav class="pagination" role="navigation">
+      
+      <span class="page-number">&nbsp;</span>
+      
+          <a class="newer-posts" href="/how-to-not-fail-your-servicenow-certification-exam/"><span class="hide">Next Post</span> &rarr;</a>
+      
+    </nav>
+
+    
+    
+    
+
+  </div>
+</main>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="/">JahnelGroup</a>  <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        <a href="/">Latest Posts</a>
+        <a href="https://www.facebook.com/jahnelgroup" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/jahnelgroup" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/jahnelgroup" target="_blank" rel="noopener">Github</a>
+        
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-91305857-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+</body></html>

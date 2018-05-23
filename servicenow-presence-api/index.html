@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>ServiceNow Presence API &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="canonical" href="/servicenow-presence-api/" />
+
+     <meta name="description" content="With the introduction of new user interface called UI16 ServiceNow implemented a new feature, called User Presence. It allows you to put green dots near avatars" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="/images/cover2.jpg"/>
+    
+ 
+    <meta name="twitter:title" content="ServiceNow Presence API"/>
+    <meta name="twitter:description" content="With the introduction of new user interface called UI16 ServiceNow implemented a new feature, called User Presence. It allows you to put green dots near avatars"/>
+    <meta name="twitter:url" content="/servicenow-presence-api/" />
+    <meta name="twitter:site" content="@jahnelgroup"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="ServiceNow Presence API &middot; Jahnel Group Blog about ServiceNow" />
+    <meta property="og:url" content="/servicenow-presence-api/" />
+    <meta property="article:publisher" content="https://www.facebook.com/jahnelgroup" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="With the introduction of new user interface called UI16 ServiceNow implemented a new feature, called User Presence. It allows you to put green dots near avatars" />
+
+    <meta property="article:published_time" content="2018-04-26T10:18:00Z" />
+    <meta property="article:tag" content="Developer" /><meta property="article:tag" content="ServiceNow" /><meta property="article:tag" content="Problems" />
+
+    <meta property="og:image" content="/images/cover2.jpg"/>
+
+
+    <meta name="generator" content="Hugo 0.40.1" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    
+
+     
+
+</head>
+
+
+<body class="ctsingle">
+
+  <div class="site-wrapper"> 
+
+<header class="site-header outer "  style="background-image: url(/images/main-background.jpg)"  >
+  <div class="inner">
+    <div class="site-header-content">
+      <h1 class="site-title">
+        <img class="site-logo" src="/images/jg_logo_white.png" alt="Jahnel Group Blog about ServiceNow" />
+       </h1>
+        <h2 class="site-description">Jahnel Group Blog about ServiceNow </h2>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left"><ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="http://servicenow.jahnelgroup.com/">Our Site</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/categories">Categories</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    <a class="social-link social-link-fb" href="https://www.facebook.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/jahnelgroup" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+    <div class="post-feed">
+      
+
+<article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="/servicenow-presence-api/">
+      <div class="post-card-image" style="background-image: url(/images/cover2.jpg)"></div>
+    </a>
+    
+
+    <div class="post-card-content">
+    <div class="post-card-content-link">
+        
+        <span class="post-card-tags">
+            <a href="/tags/developer"> #Developer</a>
+            <a href="/tags/servicenow"> #ServiceNow</a>
+            <a href="/tags/problems"> #Problems</a> </span>
+        
+        <a href="/servicenow-presence-api/" style="text-decoration: none; color: rgb(21,23,26)">
+            <header class="post-card-header">
+                <h2 class="post-card-title">ServiceNow Presence API</h2>
+            </header>
+        </a>
+    </div>
+      <section class="post-card-excerpt" style="padding: 0 25px;">
+          
+
+<p>With the introduction of new user interface called UI16 ServiceNow implemented a new feature, called User Presence. It allows you to put green dots near avatars of users that are online in multiple different places like: Activity Streams, Visual Task Boards, Live Feeds and Connect Conversations. If the user the activity on the instance, the green dot will turn orange for several seconds, and after no user interaction for the next few seconds the dot will disappear. This is a great way of showing users currently on the system, so I wanted to enable this functionality in one of my Service Portal applications.</p>
+
+<h2 id="using-it-in-service-portal">Using it in Service Portal</h2>
+
+<p>It appeared that there is no documentation available to developers describing the usage of the Presence API. I was also searching through community forums and found no clear path for a developer to follow here either. Some people suggested using the <em>sys_user_presence</em> table, which has information of the user activity, but this solution in my opinion, was not following best practice.My desire to implement the Presence functionality in Service Portal pushed me to reverse engineer existing presence implementation in the regular ServiceNow UI16 view.</p>
+
+<h2 id="i-want-it-too">I want it too!</h2>
+
+<p>For all of you that want to implement this functionality, the fastest way is downloading the Angular Directive that I&rsquo;ve created and uploading to ServiceNow (to the <em>sp_angular_providers</em> table), adding it to the widget and using it by passing to the method an array of sys_ids of users you want to get the presence of.</p>
+
+<pre><code>var user = {sys_id: &quot;sys_id&quot;};
+var users = [user];
+spUserPresence.getUserPresence(users)
+    .then(fuction(response){
+        // use the response
+    });
+</code></pre>
+
+<p>This method will return an array of objects containing the sys_id, just like the object passed to the method, and also the <em>status</em> property, which will be one of <em>online</em>, <em>away</em> or <em>offline</em>. The download link is at the bottom of this post.</p>
+
+<p>At this point I&rsquo;d like to point out that ServiceNow could change how the Presence API works in the future, and this method <strong>may not work</strong> for future releases.</p>
+
+<h2 id="how-does-it-work">How does it work?</h2>
+
+<p>When looking for existing implementation of Presence functionality I noticed that the website every few seconds sends a &ldquo;connect&rdquo; REST message, and on the pages that leverage presence functionality there is a record calling the presence API. The URL for the rest call is:</p>
+
+<pre><code>/api/now/ui/presence
+</code></pre>
+
+<p>The result of this call contains two important things, first is server time, under property called <code>serverTimeMilis</code>, and the second is an array of users, the <code>presenceArray</code>. This array consists of objects having user sys_ids and the last time they were present on the system. By subtracting server time from that number, you can get the information how long ago the user was active in the ServiceNow world.</p>
+
+<h2 id="things-to-keep-in-mind">Things to keep in mind</h2>
+
+<p>The way this Angular Directive is implemented, it gives you information about the presence of users, but only once. If you want to have continuous updates, you need to periodically call it. The best way to do it is to enclose the execution in <code>setInterval</code> function:</p>
+
+<pre><code>setInterval(function(){
+    spUserPresence.getUserPresence(users)
+        .then(function(response){
+            // #TODO: Implement handing
+        });
+}, 5000);
+</code></pre>
+
+<p>The second argument of this method is time in milliseconds of how often should the function declared in first parameter be called. You can change it, depending how often do you want to refresh it but keep in mind that refreshing it too often may cause performance problems and heavy network usage. Having a long interval on the other hand may result in the green circle showing for a long time after user logs out, so it may be not giving accurate enough information.</p>
+
+<p>The other thing related to time is the decision how long does the user stay online in the system, and after what time the status shall change from away to offline. I have set predefined values using my best estimate on how the ServiceNow determines that in the regular view, but you can change these values in the Angular Directive:</p>
+
+<pre><code>var deltaTime = serverTime - present.last_on;
+if(deltaTime &lt; 30000) person.status = &quot;online&quot;;
+else if(deltaTime &lt; 60000) person.status = &quot;away&quot;;
+else person.status = &quot;offline&quot;;
+</code></pre>
+
+<h2 id="summary">Summary</h2>
+
+<p>The Presence API gives us a nice way of showing active users on Service Portal. From my testing, it&rsquo;s efficient and because it follows the same architecture that UI16 has built in, follows the best practices for ServiceNow. However, it&rsquo;s not all good news. This API is not documented at ServiceNow Developer site, and that may be for the reason. It could be changed or completely revoked in the future, leaving you with the code that doesn&rsquo;t work. Having said that, if you develop your widget in a way that it will still work even when the API is not available, you should not have any problems other that the lack of the green dot by the avatar that wasn&rsquo;t even there in the first place.</p>
+
+<p>Download link:
+<a href="/downloads/spUserPresence.xml" download>spUserPresence.xml</a></p>
+
+      </section>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="/images/jsynowiec.jpg"
+            alt="Author" />
+          <span class="post-card-author"><a href="//authors/jsynowiec">Jakub Synowiec</a></span>
+      </footer>
+    </div>
+</article>
+    </div>
+
+    <nav class="pagination" role="navigation">
+      
+          <a class="older-posts" href="/fix-mobile-menu-on-service-portal/">&larr; <span class="hide">Previous Post</span></a>
+      
+      <span class="page-number">&nbsp;</span>
+      
+          <a class="newer-posts" href="/guess-the-output-of-this-code/"><span class="hide">Next Post</span> &rarr;</a>
+      
+    </nav>
+
+    
+    
+    
+
+  </div>
+</main>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="/">JahnelGroup</a>  <br>
+      
+    </section>
+    <nav class="site-footer-nav">
+        <a href="/">Latest Posts</a>
+        <a href="https://www.facebook.com/jahnelgroup" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/jahnelgroup" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/jahnelgroup" target="_blank" rel="noopener">Github</a>
+        
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-91305857-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+</body></html>

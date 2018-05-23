@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jlee on </title>
+    <link>/authors/jlee/</link>
+    <description>Recent content in Jlee on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 02 Oct 2017 10:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/jlee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Beginner’s Insight into the User Interface on ServiceNow</title>
+      <link>/a-beginners-insight-into-the-user-interface-on-servicenow/</link>
+      <pubDate>Mon, 02 Oct 2017 10:00:00 +0000</pubDate>
+      
+      <guid>/a-beginners-insight-into-the-user-interface-on-servicenow/</guid>
+      <description>As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is targeted towards people that have just gone through ServiceNow’s Learning Plan, started getting used to the platform, or just generally curious on how ServiceNow approaches interfaces/design. Veterans are more than welcome to expand on ideas that are going to be listed here and give any helpful insight.</description>
+    </item>
+    
+  </channel>
+</rss>

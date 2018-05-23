@@ -6,10 +6,28 @@
     <description>Recent content in Developer on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 04 Oct 2017 10:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Apr 2018 10:18:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/developer/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ServiceNow Presence API</title>
+      <link>/servicenow-presence-api/</link>
+      <pubDate>Thu, 26 Apr 2018 10:18:00 +0000</pubDate>
+      
+      <guid>/servicenow-presence-api/</guid>
+      <description>With the introduction of new user interface called UI16 ServiceNow implemented a new feature, called User Presence. It allows you to put green dots near avatars of users that are online in multiple different places like: Activity Streams, Visual Task Boards, Live Feeds and Connect Conversations. If the user the activity on the instance, the green dot will turn orange for several seconds, and after no user interaction for the next few seconds the dot will disappear.</description>
+    </item>
+    
+    <item>
+      <title>Fix Mobile Menu on Service Portal</title>
+      <link>/fix-mobile-menu-on-service-portal/</link>
+      <pubDate>Wed, 04 Oct 2017 10:18:00 +0000</pubDate>
+      
+      <guid>/fix-mobile-menu-on-service-portal/</guid>
+      <description>While developing an application for Service Portal, you are provided with many features “out of the box”. You get an responsive environment with widgets that can be used on several different pages. But what if you need to change some of those “out of the box” parts? After one of my applications was tested by QA, I was given a task to change the behavior of the menu on mobile view.</description>
+    </item>
     
     <item>
       <title>The Good, the Bad, and the Ugly About ServiceNow from a Developer&#39;s Perspective</title>
@@ -18,6 +36,15 @@
       
       <guid>/the-good-the-bad-and-the-ugly-about-servicenow-from-a-developers-perspective/</guid>
       <description>Over the years, the concept of &amp;ldquo;platform&amp;rdquo; has been growing and become one of the main topics regarding IT Service Management. ServiceNow is one company in particular that has become a big thing in this space. Sure, the list of companies using the ServiceNow platform is impressive, but it doesn&amp;rsquo;t show how many people are actually using or familiar with the platform. What really brought this to my attention is when I mention ServiceNow while talking to people working in big companies.</description>
+    </item>
+    
+    <item>
+      <title>A Beginner’s Insight into the User Interface on ServiceNow</title>
+      <link>/a-beginners-insight-into-the-user-interface-on-servicenow/</link>
+      <pubDate>Mon, 02 Oct 2017 10:00:00 +0000</pubDate>
+      
+      <guid>/a-beginners-insight-into-the-user-interface-on-servicenow/</guid>
+      <description>As a new developer, working on the platform for about 5 months, these are some of the thoughts I have on the front-end development for ServiceNow. This post is targeted towards people that have just gone through ServiceNow’s Learning Plan, started getting used to the platform, or just generally curious on how ServiceNow approaches interfaces/design. Veterans are more than welcome to expand on ideas that are going to be listed here and give any helpful insight.</description>
     </item>
     
   </channel>
