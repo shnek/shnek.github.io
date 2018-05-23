@@ -1,0 +1,19 @@
+language: ruby
+rvm:
+- 2.4
+
+install:
+- bundle install
+
+script: bundle exec rake site:deploy --trace
+
+env:
+  global:
+    secure:
+      UeP8jGd861TNjJ2vlaSCOAU6VLi1GsU6c1tHA5SmnjlEZt1GAZeBO/anLLR/q2BNlQ9zn6LJTBZxuWgf83bVMqDrSeg1X9RCJU4MzeQ2O9wHR4CpzDwz1N04D+sQgNjKluNKsjsGQBjFdH+mHT4A1ndnAkABFl3ldIP6IQad0h1P0TsQcErz5i5N8gUKnpwLqBp/oDKRr8KxOMPwqu2+GArRQIN19iS6R49KpaSPmlUdxPe8am055pI0ulYA2hCU9sVopg2uHbo//NQVeHYKgH0rnXiSSLbfqtd32pfOtJVWwLKP7OihjR3RwdgtfJO8qUwtaAbyEl8IYbML7F+Zuxw+ZtKrjkUxHDrx7QZjJBqBWnsJg7rrhzSFAfNI8l2LX7jGF0NoDtiYh87xLz8awkj+j+0g6oQFucvsQ8WQgYGqAmjI5+cQX2c8je/ZynDZVRRSVYDC6V5Esy3+4yRDaLQD3KIIRfnbEEydHpFzfV8MUyEWWQ5xuPdRQav3veYW7ZPNMJsqTb02Z5k/5MxMIyUozydQFm4iBTE0TOuxET6BTmfj46UIe6O/pvkT+p5coVnPGL6F0ennCQnkaR0CXgB7vct2rqqHhFPR0Z3+MFp9mka/Z5uYODDU7HVCa5X1FgKcmeLdBc9BqILooDNoc0+rYcK/4kV9gYqDS5kVqfs=
+
+branches:
+  only:
+  - master
+  - gh-pages
+  - /pages-(.*)/ # test every branch which starts with "pages-"
